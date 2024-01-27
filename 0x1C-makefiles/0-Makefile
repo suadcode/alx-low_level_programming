@@ -1,0 +1,5 @@
+# This file is used to automate the compilation of a C program
+
+all: main.c school.c message.h
+	gcc main.c school.c -o school
+
